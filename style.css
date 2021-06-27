@@ -1,0 +1,165 @@
+body {
+  background: rgba(134, 243, 243, 0.856);
+}
+.penguin {
+  position: relative;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  display: block;
+  top: 5%;
+}
+.penguin * {
+  position: absolute;
+}
+
+.penguin-top {
+  top: 15%;
+  left: 30%;
+  background: black;
+  width: 50%;
+  height: 45%;
+  border-radius: 70% 70% 60% 60%;
+}
+.left-cheek {
+  top: 15%;
+  left: 35%;
+  background: white;
+  width: 60%;
+  height: 70%;
+  border-radius: 60% 60% 60% 60%;
+}
+.penguin-bottom {
+  top: 40%;
+  left: 30%;
+  background: black;
+  width: 53%;
+  height: 50%;
+  border-radius: 70% 70% 100% 100%;
+}
+.right-cheek {
+  top: 15%;
+  left: 5%;
+  background: white;
+  width: 60%;
+  height: 70%;
+  border-radius: 60% 60% 60% 60%;
+}
+.left-eye {
+  top: 30%;
+  left: 20%;
+  width: 15%;
+  height: 15%;
+  background: black;
+  border-radius: 50%;
+}
+
+.right-eye {
+  top: 30%;
+  left: 64%;
+  width: 15%;
+  height: 15%;
+  background: black;
+  border-radius: 50%;
+}
+.belly {
+  background: white;
+  width: 95%;
+  height: 100%;
+  top: 60%;
+  left: 5%;
+  border-radius: 100% 100% 120% 120%;
+}
+
+.sparkle {
+  background: white;
+  width: 25%;
+  height: 30%;
+  top: 20%;
+  left: 25%;
+  border-radius: 50%;
+}
+.sanka {
+  background: orange;
+  width: 20%;
+  height: 9%;
+  top: 49%;
+  left: 39.5%;
+  z-index: 2;
+  border-radius: 45%;
+}
+
+.afka {
+  background: orange;
+  width: 15%;
+  height: 10%;
+  top: 54%;
+  left: 42%;
+  z-index: 2;
+  border-radius: 40%;
+}
+
+.left-pink {
+  background: pink;
+  width: 15%;
+  height: 8%;
+  top: 55%;
+  left: 16%;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.right-pink {
+  background: pink;
+  width: 15%;
+  height: 8%;
+  top: 55%;
+  left: 67%;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+/*  bottom  */
+
+.left-feet {
+  background: orange;
+  width: 18%;
+  height: 30%;
+  top: 80%;
+  left: 20%;
+  border-radius: 300% 70%;
+  z-index: -1;
+}
+
+.right-feet {
+  background: orange;
+  width: 18%;
+  height: 30%;
+  top: 80%;
+  left: 62%;
+  border-radius: 70% 300%;
+  z-index: -1;
+}
+
+.left-hand {
+  background: black;
+  width: 18%;
+  height: 50%;
+  z-index: -1;
+  left: -6%;
+  top: -4%;
+  border-radius: 30%;
+  transform: rotate(47deg);
+}
+
+.right-hand {
+  background: black;
+  width: 18%;
+  height: 52%;
+  z-index: -1;
+  left: 84%;
+  top: -9%;
+
+  border-radius: 30%;
+  transform: rotate(-45deg);
+}
